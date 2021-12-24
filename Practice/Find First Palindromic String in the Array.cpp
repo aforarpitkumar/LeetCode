@@ -6,7 +6,7 @@ public:
         
         string s="";
         vector<string> dublicate;
-        vector<string> AnsString;
+        //vector<string> AnsString;
         
         for (int i=0; i<words.size(); i++){
 
@@ -17,13 +17,13 @@ public:
         for (int i=0; i<words.size(); i++){
             
             reverse(dublicate[i].begin(), dublicate[i].end());
-            AnsString.push_back(dublicate[i]);
+            //AnsString.push_back(dublicate[i]);
             
         }
         
         for (int i=0; i<words.size(); i++){
             
-            if (words[i]==AnsString[i]){
+            if (words[i]== dublicate[i]){
                 
                 s= words[i];
                 break;
