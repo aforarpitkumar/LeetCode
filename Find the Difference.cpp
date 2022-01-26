@@ -5,8 +5,6 @@ public:
     char findTheDifference(string s, string t) {
         
         char ans = ' ';
-       
-        
         
         map <char,int> mp1 ;
         
