@@ -6,7 +6,6 @@ public:
         
         int ans = 0;
         
-        
         for (int i=0; i<accounts.size(); i++){
             
             int temp=0;
